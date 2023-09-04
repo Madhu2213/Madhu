@@ -1,0 +1,25 @@
+class Zomato
+{
+public static void main(String args[]);
+{
+String food1="PIZZA(2)";
+String food2="CHICKEN BIRYANI(1)";
+String food3="COKE(2)";
+String food4="PASTRY(4)";
+System.out.println(+food1 " : 379");
+System.out.println(+food2 " : 500");
+System.out.println(+food3 " : 150");
+System.out.println(+food4 " : 200");
+
+byte quantity_pizza = 2;
+byte quantity_chickenbiryani = 1;
+byte quantity_coke  = 2;
+bte  quantity_pastry = 4;
+
+int total=(pizza*2)+chickenbiryani+(coke*2)+(pastry*4);
+System.out.println("TOTAL : "+total);
+
+
+
+
+
